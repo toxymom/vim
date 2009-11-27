@@ -1,0 +1,31 @@
+
+widget=/media/fs1/data/home/fotonovosti/www filter="*.html *.php *.xml" {
+ index0.html
+ css=css {
+ }
+ img=img {
+ }
+ timeline=timeline {
+  index.html
+  index_wdgt.html
+  index_wdgt_src.html
+  get_from_db.php
+  import_feed.php
+  import_to_db.php
+  template.xml
+  DbSimple=DbSimple {
+   Generic.php
+   Ibase.php
+   Mysql.php
+   Postgresql.php
+  }
+ }
+ wdgt=wdgt {
+  index.html
+  index_rus.html
+  template.html
+  template_rus.html
+  index.php
+  index_rus.php
+ }
+}
